@@ -1,0 +1,127 @@
+{
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.letterSpacing": 0.5,
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Maple Mono', monospace",
+  "editor.wordWrap": "on",
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.renderLineHighlight": "all",
+  "editor.cursorBlinking": "expand",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.minimap.enabled": false,
+  "editor.minimap.side": "left",
+  "editor.rulers": [80, 100],
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": true,
+  "editor.codeLens": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.defaultFormatter": "golang.go",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.stickyScroll.enabled": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.list.smoothScrolling": true,
+  "editor.scrollBeyondLastLine": false,
+
+  // --- Go settings ---
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    }
+  },
+  "go.useLanguageServer": true,
+  "go.languageServerFlags": ["serve"],
+  "go.formatTool": "default",
+  "go.lintTool": "golangci-lint",
+  "go.lintOnSave": "workspace",
+  "go.lintFlags": ["--fast", "--out-format=json"],
+  "go.toolsEnvVars": {
+    "GOLANGCI_LINT_FAST": "true"
+  },
+  "go.testOnSave": false,
+  "go.vetOnSave": "off",
+  "go.coverOnSave": false,
+  "go.coverageDecorator": {
+    "type": "gutter"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "go.inferGopath": false,
+  "go.gopath": "",
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+
+  // --- TypeScript & Playwright ---
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.suggest.autoImports": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+
+  // --- Playwright Testing ---
+  "playwright.trace.autoOpen": "on-failure",
+  "playwright.reuseBrowser": true,
+  "playwright.testExplorer.enabled": true,
+  "playwright.testExplorer.showResults": "always",
+  "playwright.env": {
+    "CI": "false"
+  },
+
+  // --- UI / Workbench ---
+  "window.zoomLevel": 1,
+  "window.customTitleBarVisibility": "auto",
+  "window.titleBarStyle": "custom",
+  "workbench.activityBar.location": "top",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.colorTheme": "Alucard",
+  "workbench.sideBar.location": "right",
+  "breadcrumbs.enabled": true,
+
+  // --- Terminal ---
+  "terminal.external.linuxExec": "kitty",
+  "terminal.explorerKind": "both",
+  "terminal.sourceControlRepositoriesKind": "both",
+
+  // --- Explorer / Git / Security ---
+  "explorer.confirmDelete": false,
+  "extensions.autoUpdate": false,
+  "telemetry.telemetryLevel": "off",
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "security.workspace.trust.startupPrompt": "never",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true
+}
