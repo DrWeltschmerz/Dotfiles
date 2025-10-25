@@ -6,7 +6,7 @@
 @define-color moondust #242631;
 @define-color pastel-pink #E4B4C5;
 @define-color mist-lavender #C8C3E8;
-@define-color peach-cream #F0D3C2;
+@define-color peach-cream #F2D5C4;
 @define-color baby-blue #A7C7E7;
 @define-color soft-gray #BFC6D0;
 @define-color dusty-mint #BFD8CC;
@@ -14,9 +14,9 @@
 * {
   font-family: "IBM Plex Sans";
   font-weight: bold;
-  min-height: 40px;
+  min-height: 36px;
   /* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
-  font-size: 22px;
+  font-size: 18px;
   font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
   border: 1px solid transparent;
   border-radius: 0px;
@@ -25,17 +25,17 @@
 
 window#waybar {
   border: none;
-  border-radius: 25px;
+  border-radius: 15px;
   /*background-color: @bg_green;*/
   background-color: @moondust;
   color: @soft-gray;
   transition-property: background-color;
   transition-duration: 0.5s;
-  opacity: 0.95;
+  opacity: 0.98;
 }
 
 window#waybar.hidden {
-	opacity: 0.95;
+	opacity: 0.98;
 }
 
 #window {

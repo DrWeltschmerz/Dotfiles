@@ -14,9 +14,9 @@
 * {
   font-family: "IBM Plex Sans";
   font-weight: bold;
-  min-height: 40px;
+  min-height: 36px;
   /* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
-  font-size: 22px;
+  font-size: 18px;
   font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
   border: 1px solid transparent;
   border-radius: 0px;
@@ -25,24 +25,24 @@
 
 window#waybar {
   border: none;
-  border-radius: 25px;
+  border-radius: 15px;
   /*background-color: @bg_green;*/
   background-color: @peach-cream;
   color: @soft-gray;
   transition-property: background-color;
   transition-duration: 0.5s;
-  opacity: 0.95;
+  opacity: 0.98;
 }
 
 window#waybar.hidden {
-	opacity: 0.95;
+	opacity: 0.98;
 }
 
 #window {
   padding: 0px 10px;
   margin: 0px 10px;
   border-radius: 5px;
-  background-color: @mist-lavender;
+  background-color: @dusty-mint;
 }
 
 .modules-left button:first-child {
@@ -58,7 +58,7 @@ window#waybar.hidden {
 #custom-menu,
 #custom-arch {
   color: @pastel-pink;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 #custom-swaync {
@@ -122,11 +122,6 @@ background-color: @mist-lavender;
 
 #pulseaudio.muted {
   color: @mist-lavender;
-}
-
-#custom-power {
-  font-size: 20px;
-  color: @pastel-pink;
 }
 
 #custom-hypridle,

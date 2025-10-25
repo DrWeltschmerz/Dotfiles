@@ -19,18 +19,19 @@
 "passthrough": false,
 "position": "bottom",
 "fixed-center": true,
-"width": 2300,
+"width": 1800,
 "ipc": true,
 "modules-left": [
 	"custom/separator#blank_2",
   	"custom/arch", 
-	"hyprland/workspaces#roman"
+	"idle_inhibitor",
+	"hyprland/workspaces#roman",
+	"custom/swaync"
 	],
 "modules-center": [
 	"clock#forest",
 	
-"idle_inhibitor",
-"custom/swaync"
+
 	],
 "modules-right": [
 	"cpu#forest",
